@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "pandasApp",
+			"path": "../../../Desktop/pandasApp"
+		},
+		{
+			"name": "heart failure prediction dataset",
+			"path": "../../../Desktop/heart failure prediction dataset"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
