@@ -1,7 +1,11 @@
 *{
+	overflow:hidden;
 	margin:0;
 	padding:0;
 	font-family: 'Roboto Slab', serif;
+}
+h1{
+	text-align:center;
 }
 .banner{ 
 	width: 100%;
@@ -10,40 +14,48 @@
 	background-size:cover;
 	background-position: right;
 }
-.logo{
-	width: 200px;
-	cursor:pointer;
-	position: absolute;
-	top: 10px;
-	left:200px;
-	border-radius:50%;
-	z-index: 1;
+.portrait{
+	overflow:hidden;
+	height: 300px;
+	margin-left: 400px;
+	margin-top: 200px;
+	text-align: left;
 }
-.navbar{
-	float: right;
-	width:85%;
-	margin:auto;
-	padding: 35px 0;
+.portrait img{
+	height:300px;
+	border-radius: 50%;
+}
+.navbar ul{
+	overflow: hidden;
+	width:100%;
+	margin:0;
+	padding: 0;
 	display:flex;
-	align-items:center;
+	align-items: center;
 	justify-content:space-between;
-	z-index: 1;
 }
 
 .navbar ul li{
+	overflow:hidden;
 	list-style:none;
 	display:inline-block;
-	margin: 0 20px;
-	position: relative;
-	z-index: 1;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	top: 10px;
+	right: 10px;
 }
 .navbar ul li a{
+	overflow:hidden;
+	font-size: 25px;
 	text-decoration:none;
 	color: #161515;
 	text-transform: uppercase;
 	z-index: 1;
 }
 .navbar ul li::after{
+	overflow:hidden;
 	content: '';
 	height: 3px;
 	width: 0;
@@ -57,13 +69,15 @@
 	z-index: 1;
 }
 .navbar ul li:hover::after{
-		width:100%;
-		z-index: 1;
+	overflow:hidden;
+	width:100%;
+	z-index: 1;
 }		
 div{
 	column-count: 1;
 }
-.content{ 
+.content{
+	overflow:hidden; 
 	width: 100%;
 	position: absolute;
 	top: 50%;
